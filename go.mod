@@ -4,15 +4,16 @@ go 1.21.0
 
 require (
 	github.com/ClickHouse/clickhouse-go/v2 v2.30.0
+	github.com/antlr4-go/antlr/v4 v4.13.0
 	github.com/go-sql-driver/mysql v1.8.1
 	github.com/jackc/pgx/v5 v5.7.1
 	github.com/joho/godotenv v1.5.1
+	github.com/libsql/sqlite-antlr4-parser v0.0.0-20240327125255-dbf53b6cbf06
 	github.com/mfridman/interpolate v0.0.2
 	github.com/mfridman/xflag v0.1.0
 	github.com/microsoft/go-mssqldb v1.8.0
 	github.com/sethvargo/go-retry v0.3.0
 	github.com/stretchr/testify v1.10.0
-	github.com/tursodatabase/libsql-client-go v0.0.0-20240902231107-85af5b9d094d
 	github.com/vertica/vertica-sql-go v1.3.3
 	github.com/ydb-platform/ydb-go-sdk/v3 v3.95.3
 	github.com/ziutek/mymysql v1.5.4
@@ -25,8 +26,6 @@ require (
 	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/ClickHouse/ch-go v0.61.5 // indirect
 	github.com/andybalholm/brotli v1.1.1 // indirect
-	github.com/antlr4-go/antlr/v4 v4.13.0 // indirect
-	github.com/coder/websocket v1.8.12 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/elastic/go-sysinfo v1.11.2 // indirect
