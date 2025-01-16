@@ -1,0 +1,4 @@
+[submodule "lib/github.com/tursodatabase/go-libsql"]
+	path = lib/github.com/tursodatabase/go-libsql
+	url = https://github.com/ktprograms/go-libsql
+	shallow = true
